@@ -4,10 +4,10 @@ This project implements a robust OCR pipeline to extract tables from scanned or 
     2.Data is right-aligned (common in financial or payroll documents)
 
 # WARNING TO DEVELOPERS:
-  Tesseract makes fewer mistakes in the results of right aligned when compared to Rule_Based primarily because I increased the top and bottom padding from 2 to 4
-  The code does not work for the Kris Love pdf primarily because of vertical dilation and because I have commented out the code for multiline header merging.
-  The absence of vertical dilation makes the model work for Kris Love pdf, but it affects words with "i". The model does not print words with the character "i" in them as it detects the dot as a separate entity.
-  Multiline header detection code has been commented out as although it works for Kris Love pdf, it significantly decreases the accuracy for the other pdfs.
+1. Tesseract makes fewer mistakes in the results of right aligned when compared to Rule_Based primarily because I increased the top and bottom padding from 2 to 4
+2. The code does not work for the Kris Love pdf primarily because of vertical dilation and because I have commented out the code for multiline header merging.
+3. The absence of vertical dilation makes the model work for Kris Love pdf, but it affects words with "i". The model does not print words with the character "i" in them as it detects the dot as a separate entity.
+4. Multiline header detection code has been commented out as although it works for Kris Love pdf, it significantly decreases the accuracy for the other pdfs.
 
 ## Key Features:
   1. Dynamic horizontal dilation based on median character width
