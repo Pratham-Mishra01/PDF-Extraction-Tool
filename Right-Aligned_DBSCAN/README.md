@@ -32,4 +32,7 @@ This project implements a robust OCR pipeline to extract tables from scanned or 
       Assign each OCR'd cell to a (row, col) index
   8. Excel Export: Final reconstructed table exported as .xlsx
 
-
+# Color Coding For Excel Results:
+1. Used the color RED to highlight mistakes made by Tesseract Library in detecting texts. Most of the problems noticed were in detecting the decimal point.
+2. Used the color YELLOW to highlight the cells that were misplaced by the model.
+3. Used the color BLUE to highlight the columns that were shifted from the column header.
