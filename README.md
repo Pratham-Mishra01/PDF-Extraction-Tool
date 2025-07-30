@@ -26,12 +26,12 @@ Ensure the following Python packages and external tools are installed:
 ### 📦 Python Packages
 You can install these via pip:
 
-pip install opencv-python
-pip install pytesseract
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install scikit-learn
-pip install pdf2image
-pip install openpyxl
+pip install opencv-python <br> 
+pip install pytesseract <br>
+pip install numpy <br>
+pip install pandas <br>
+pip install matplotlib <br>
+pip install scikit-learn <br>
+pip install pdf2image <br>
+pip install openpyxl <br>
 
