@@ -35,6 +35,7 @@ Rows are grouped using the vertical midpoint of each cell.
 Cells with similar midpoints (within a tolerance) are considered part of the same row.
 
 7. Column Clustering (Right-Aligned)
+In this pipeline, col_dict contains a tuple of (x,x+w) as the key.
 Columns are grouped based on both:
 
 x (left edge)
