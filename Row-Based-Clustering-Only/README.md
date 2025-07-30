@@ -89,3 +89,8 @@ python
 Copy
 Edit
 process_pdf(pdf_path, poppler_path, output_excel="your_output_file.xlsx")
+
+## Color Coding for Excel Filed:
+1. Red is used for errors made by Tesseract. Most of them are related to missing a decimal point.
+2. Yellow is for individual cells that are displaced from the columns.
+3. Blue is for columns that are displaced from their column headers.
